@@ -1,0 +1,30 @@
+.btn{
+  margin-left: 20px;
+  border: none;
+  width: 100px;
+  height: 30px;
+  font-size: 16px;
+  font-family: var(--main-kr-font);
+  border-radius: 5px;
+  background-color: var(--sideNavbar-bg-graysand);
+  color: var(--sideNavbar-font-agategrey);
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: var(--sideNavbar-bg-graysand-hover);
+}
+.subBtn{
+  margin-left: 20px;
+  border: none;
+  width: 100px;
+  height: 30px;
+  font-size: 16px;
+  font-family: var(--main-kr-font);
+  border-radius: 5px;
+  background-color: var(--sideNavbar-bg-pleinair);
+  color: var(--sideNavbar-font-pleinair);
+  cursor: pointer;
+}
+.subBtn:hover{
+  background-color: var(--sideNavbar-bg-pleinair-hover);
+}

@@ -1,0 +1,140 @@
+.Title{
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid #A1A1A1;
+  margin-bottom: 20px;
+}
+.TitleSelected{
+  width: 150px;
+  text-align: center;
+}
+.select{
+  font-family: var(--main-eg-font);
+  font-size: 18px;
+  width: 100%;
+  font-weight: 600;
+  overflow-x: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  border-bottom: 3px solid #010101;
+  cursor: pointer;
+}
+.unSelect{
+  font-family: var(--main-eg-font);
+  font-size: 18px;
+  width: 100%;
+  color: #858585;
+  border-bottom: none;
+  overflow-x: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+.img{
+  width: 100%;
+  max-width: max-content;
+  max-height: 700px;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  font-family: var(--main-kr-font);
+}
+.TITLE{
+  font-size: 40px;
+  font-weight: bold;
+}
+.DETAIL_DESCRIPTION{
+  white-space: pre-wrap;
+  font-size: 20px;
+}
+.summaryContainer{
+  display: flex;
+  justify-content: flex-end;
+}
+.summary{
+  display: flex;
+  flex-direction: column;
+}
+.serviceContainer{
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.serviceTitle{
+  width: 20%;
+  font-size: 20px;
+}
+.service{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap:wrap;
+}
+.item{
+  width: 25%;
+  font-family: var(--main-kr-font);
+}
+.mbBtn{
+  display: none;
+}
+.desktopBtn{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 20px;
+  margin: 20px 0;
+}
+.icon{
+  font-size: 16px;
+  margin: 0 10px;
+}
+
+
+@media screen and (max-width:1280px){
+ .TITLE{
+  font-size: 30px;
+  }
+  .DETAIL_DESCRIPTION{
+  font-size: 18px;
+  }
+}
+@media screen and (max-width:1024px){
+  .TitleSelected{
+    width: 100px;
+  }
+ .select, .unSelect{
+  font-size: 16px;
+ }
+}
+@media screen and (max-width:768px){
+  .img{
+  max-height: 500px;
+  }
+   .select, .unSelect{
+  font-size: 12px;
+  }
+   .TITLE{
+  font-size: 20px;
+  }
+  .DETAIL_DESCRIPTION{
+  font-size: 12px;
+  height: max-content;
+  margin: 20px 0;
+  }
+  .serviceTitle,.item{
+    font-size: 12px;
+    width: 33%;
+  }
+  .summary{
+    font-size: 14px;
+  }
+  .mbBtn{
+  display: block;
+  text-align: right;
+  margin-bottom: 20px;
+  }
+  .desktopBtn{
+    display: none;
+  }
+}

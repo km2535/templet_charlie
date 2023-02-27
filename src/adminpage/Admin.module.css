@@ -1,0 +1,7 @@
+.mainTitle{
+  font-family: var(--main-kr-font);
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}

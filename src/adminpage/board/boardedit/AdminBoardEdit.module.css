@@ -1,0 +1,207 @@
+.container{
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  touch-action: pan-y;
+}
+.table{
+  border-collapse: collapse
+}
+.thead,.tbody{
+  border-bottom: 2px solid #000;
+}
+.tbody{
+  height: 500px;
+}
+.tbodyTr{
+   border-bottom: 1px solid #B7B7B7;
+}
+.theadTr, .tbodyTr{
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  font-family: var(--main-kr-font);
+  height: 40px;
+}
+.downloadTr{
+  height: 30px;
+}
+.thTitle, .tdTitle{
+  width: 70%;
+}
+.thWriter,.tdWriter{
+  width: 15%;
+}
+.thReadCnt ,.tdReadCnt{
+  width: 15%;
+}
+.thDate ,.tdDate{
+  width: 20%;
+}
+.tdDate{
+  font-size: 15px;
+}
+.titleInput{
+  border: none;
+  height: 35px;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  font-family: var(--main-kr-font);
+}
+
+
+.downloadFile{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.downloadTitle{
+  width: 20%;
+  font-size: 16px;
+  padding: 10px;
+  text-align: center;
+}
+.download{
+  width: max-content;
+  font-size: 18px;
+  padding: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: var( --sideNavbar-font-agategrey);
+}
+.download:hover{
+  color: var(--main-font-strong-color);
+}
+.imgContainer{
+  width: 70%;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+}
+.img{
+  width: 100%;
+  max-width: 600px;
+  max-height: 600px;
+}
+.description{
+  padding: 10px 50px;
+  font-size: 18px;
+  font-family: var(--main-kr-font);
+}
+.btnContainer{
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+.inputFile{
+  display: none;
+}
+.imgContent,.fileContent{
+  display: flex;
+  flex-wrap: nowrap;
+}
+.fileContent{
+  margin-right: 20px;
+}
+.files{
+  margin-right: 10px;
+}
+.uploadContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.uploadFileContainer{
+   display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  width: 60%;
+}
+.imgList{
+  display: flex;
+  flex-direction: column;
+}
+.fileList{
+  display: flex;
+  flex-wrap: wrap;
+}
+.img{
+  max-width: 600px;
+  max-height: 600px;
+}
+.removeIcon{
+  color: var(--main-font-strong-color);
+  font-size: 20px;
+  cursor: pointer;
+}
+.plusBtn{
+  cursor: pointer;
+  font-size: 20px;
+}
+.detailInput{
+  border: none;
+  resize: none;
+  width: 100%;
+  font-size: 18px;
+  font-family: var(--main-kr-font);
+  height: 250px;
+}
+
+@media screen and (max-width:1200px){
+  .container{
+    width: 1000px;
+  }
+  .titleInput{
+    width: 100%;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width:1024px){
+  .container{
+    width: 800px;
+  }
+}
+@media screen and (max-width:768px){
+  .container{
+    width: 100%;
+  }
+  .tdTitle,.thTitle{
+    width: 40%;
+  }
+  .titleInput{
+  font-size: 12px;
+  width: 98%;
+  }
+  .tdWriter, .thWriter{
+    width: 30%;
+  }
+  .downloadTitle{
+    font-size: 14px;
+    width: 30%;
+  }
+  .fileContent{
+    margin-right: 5px;
+  }
+  .files{
+    font-size: 12px;
+  }
+  .detailInput{
+    font-size: 16px;
+  }
+  .img{
+    max-width: 200px;
+    max-height: 200px;
+  }
+
+  .theadTr{
+    font-size: 14px;
+  }
+  .tdWriter,.tdReadCnt{
+    font-size: 14px;
+  }
+  .tdDate{
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,61 @@
+.container{
+  width: 1200px;
+  display: flex;
+  min-height: 700px;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.mainTitle{
+  font-family: var(--main-kr-font);
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+}
+.info{
+  font-family: var(--main-kr-font);
+  margin-top: 20px;
+}
+.subInfo{
+  font-size: 24px;
+}
+.bus, .subway{
+  font-size: 30px;
+  font-weight: bold;
+}
+.subwayInfo{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width:1260px){
+  .container{
+    width: 1000px;
+  }
+}
+@media screen and (max-width:1024px){
+  .container{
+    width: 90%;
+  }
+  .mainTitle{
+    font-size: 30px;
+  }
+  .subInfo{
+    font-size: 20px;
+  }
+  .bus, .subway{
+    font-size: 24px;
+  }
+}
+@media screen and (max-width:768px){
+  .subInfo{
+    font-size:16px;
+  }
+  .bus, .subway{
+    font-size: 20px;
+  }
+}

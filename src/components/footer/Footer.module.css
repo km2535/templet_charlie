@@ -1,0 +1,136 @@
+.container{
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background-color: var(--sideNavbar-bg-agategrey);
+  color: var(--font-white-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: var(--main-kr-font);
+  touch-action: none;
+}
+.topInfo{
+  display: flex;
+  width: 80%;
+  height: 30px;
+  border-bottom: 1px solid var(--sideNavbar-bg-pleinair);
+  margin: 0 auto 20px;
+  touch-action: none;
+}
+.personal,.email,.use{
+  touch-action: none;
+  cursor: pointer;
+}
+.personal::after, .email::after{
+  touch-action: none;
+  content: "|";
+  margin: 0 20px 0 20px;
+}
+.mainInfo{
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: center;
+  touch-action: none;
+}
+.sideInfo{
+  display: flex;
+  touch-action: none;
+  flex-direction: column;
+}
+.menu1, .menu2,.menu3,.menu4{
+  touch-action: none;
+  cursor: pointer;
+}
+.menu1::after, .menu2::after, .menu3::after{
+  content: "|";
+  margin: 0 20px 0 20px;
+}
+.Info{
+  touch-action: none;
+  font-size: 12px;
+}
+.company{
+  touch-action: none;
+  font-size: 16px;
+}
+.subNabar{
+  touch-action: none;
+  display: flex;
+  margin-bottom: 10px;
+}
+.snsContainer{
+  touch-action: none;
+  display: flex;
+}
+.logo,.img{
+  touch-action: none;
+  width: 150px;
+}
+.snsContainer{
+  font-size: 30px;
+  touch-action: none;
+  justify-content: space-around;
+}
+
+@media screen and (max-width:1150px){
+  .topInfo,.mainInfo{
+    width: 90%;
+  }
+  .logo,.img{
+    width: 100px;
+  }
+  .menu1::after, .menu2::after, .menu3::after{
+    content: "|";
+    margin: 0 10px 0 10px;
+  }
+  .snsContainer{
+    font-size: 24px;
+  }
+}
+@media screen and (max-width:1024px){
+  .topInfo,.mainInfo{
+    width: 95%;
+  }
+  .logo,.img{
+    width: 80px;
+  }
+  .menu1::after, .menu2::after, .menu3::after{
+    content: "|";
+    margin: 0 10px 0 10px;
+  }
+  .snsContainer{
+    font-size: 22px;
+  }
+}
+@media screen and (max-width:960px){
+  .logo,.img{
+   display: none;
+  }
+  .mainInfo{
+    flex-direction: column;
+  }
+  .Info{
+    width: 95%;
+  }
+  .sideInfo{
+    width: 95%;
+  }
+}
+@media screen and (max-width:768px){
+  .container{
+    height: 250px;
+    top: 0px;
+  }
+  .topInfo{
+    font-size: 12px;
+  }
+  .Info{
+    margin-bottom: 5px;
+  }
+  .subNabar{
+    font-size: 14px;
+  }
+}

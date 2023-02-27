@@ -1,0 +1,225 @@
+.form{
+  width: 75%;
+  margin: 0 auto;
+}
+.imgContainer,.titleContainer,
+.detailContainer,.serviceContainer,
+.priceContainer,.summContainer,.saveSummContainer{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.imgDescription,.titleDescription,
+.detailDescription,.serviceDescription,
+.priceDescription,.summDescription{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+.imgTitle, .imgSub,
+.Title,.detailTitle,
+.serviceTitle,.priceTitle
+,.summTitle,.summSub{
+  text-align: center;
+  font-family: var(--main-kr-font);
+  font-size: 24px;
+  color: var(--main-font-color);
+}
+.titleInput,.detailInput,
+.serviceInput,.priceInput,
+.summInput{
+  width: 60%;
+  height: 40px;
+}
+.detailInput{
+  height: 200px;
+  resize: none;
+}
+.summInput{
+  display: flex;
+  width: 60%;
+}
+.titleContainer{
+  align-items: center;
+}
+.titleDescription{
+  height: 100%;
+}
+.imgSub,.summSub{
+  font-size: 14px;
+}
+.uploadContainer{
+  width: 60%;
+  height: 200px;
+  padding: 20px;
+  overflow-y: scroll;
+  border: 1px solid var(--main-font-color );
+  border-radius: 5px;
+}
+.uploadContainer::-webkit-scrollbar{
+  width: 8px;
+}
+.uploadContainer::-webkit-scrollbar-track{
+  display: none;
+}
+.uploadContainer::-webkit-scrollbar-thumb{
+  background-color: #45687f;
+  border-radius: 5px;
+}
+.imgUpload{
+  display: none;
+}
+.imgList{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.imgs{
+  width: 150px;
+  height: 200px;
+  margin: 0 20px 20px 20px;
+  overflow: hidden;
+}
+.img{
+  width: 150px;
+  height: 200px;
+}
+.imgContent{
+  display: flex;
+}
+.plusBtn{
+  height: max-content;
+  font-size: 24px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+.summContainer{
+  width: 100%;
+}
+.summInput{
+  width: 100%;
+}
+.summContent{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.summIcon{
+  font-size: 24px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.summMinus{
+  cursor: pointer;
+  width: 23px;
+  height: 22px;
+  position: relative;
+  left: -20px;
+}
+.btn{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.summInfo{
+  margin-right: 20px;
+}
+.saveSummContainer{
+  align-items: center;
+}
+
+
+@media screen and (max-width:1280px){
+
+}
+@media screen and (max-width:1150px){
+  
+}
+@media screen and (max-width:1024px){
+  
+}
+@media screen and (max-width:960px){
+ .uploadContainer::-webkit-scrollbar{
+  width: 5px;
+  height: 5px;
+  }
+  .form{
+    width: 95%;
+    margin: 0 auto;
+  }
+  .imgTitle, .imgSub,
+  .Title,.detailTitle,
+  .serviceTitle,.priceTitle
+  ,.summTitle,.summSub{
+    font-size: 20px;
+  }
+  .imgSub,.summSub{
+    font-size: 12px;
+  }
+  .imgDescription,.titleDescription,
+  .detailDescription,.serviceDescription,
+  .priceDescription,.summDescription{
+    width: 25%;
+  }
+  .uploadContainer{
+    width: 60%;
+  }
+  .titleInput,.detailInput,
+  .serviceInput,.priceInput,
+  .summInput{
+    width: 65%;
+  }
+  .summContent{
+    width: 70%;
+  }
+  .summInput{
+    width: 95%;
+  }
+}
+@media screen and (max-width:768px){
+ .form{
+    width: 98%;
+  }
+  .imgTitle, .imgSub,
+  .Title,.detailTitle,
+  .serviceTitle,.priceTitle
+  ,.summTitle,.summSub{
+    font-size: 16px;
+  }
+  .imgSub,.summSub{
+    font-size: 10px;
+  }
+  .imgDescription,.titleDescription,
+  .detailDescription,.serviceDescription,
+  .priceDescription,.summDescription{
+    width: 18%;
+  }
+  .uploadContainer{
+    width: 65%;
+  }
+  .titleInput,.detailInput,
+  .serviceInput,.priceInput,
+  .summInput{
+    width: 75%;
+  }
+  .summContent{
+    width: 80%;
+  }
+  .summInput{
+    width: 100%;
+  }
+  .plusBtn{
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  .summIcon{
+    font-size: 20px;
+    margin-left: 8px;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,104 @@
+.container{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+.logo{
+  width: 150px;
+  cursor: pointer;
+}
+.img{
+  width: 100%;
+}
+.nav{
+  width: 70%;
+  margin: 0 auto;
+}
+.gnb{
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+.gnbTitle{
+  font-family: var(--main-eg-font);
+  font: 700;
+  font-size: 28px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.loggin{
+  display: flex;
+  font-family: var(--main-kr-font);
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+}
+.loggin{
+  display: flex;
+  font-size: 18px;
+  align-items: center;
+  cursor: default;
+}
+.profile{
+  display: flex;
+}
+.home,.logout{
+  cursor: pointer;
+  margin-right: 10px;
+}
+.logout:hover{
+  color: var( --main-font-strong-color);
+}
+
+@media screen and (max-width:1024px){
+  .navbar{
+    display: none;
+  }
+  .logo{
+    width: 120px;
+    height: 40px;
+  }
+  .profile,.login{
+    font-size: 16px;
+  }
+  .menuDark,.menu{
+    font-size: 30px;
+  }
+   .gnbTitle{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width:960px){
+  .container, .containerWhite{
+    height: 60px;
+  }
+   .loggin,.logginDark{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+}
+@media screen and (max-width:768px){
+  .container{
+    width: 100vw;
+    height: 50px;
+    justify-content: space-around;
+  }
+  .gnb{
+    width: 90%;
+    text-align: left;
+    padding-left: 0;
+  }
+  .logo{
+    width: 100px;
+    height: 30px;
+    margin: 0 auto;
+  }
+ 
+  .logout{
+    margin-left: 5px;
+  }
+  .gnbTitle{
+    font-size: 15px;
+  }
+}

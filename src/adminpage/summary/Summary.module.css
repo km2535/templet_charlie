@@ -1,0 +1,47 @@
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  justify-content: center;
+  margin-bottom: 20px;
+
+}
+.products, .service, .notice, .qna{
+  padding: 10px;
+  width: 22%;
+  text-align: center;
+  font-family: var(--main-kr-font);
+  font-size: 30px;
+  font-weight: bold;
+}
+.mainTitle{
+  font-family: var(--main-kr-font);
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width:1280px){
+  .products, .service, .notice, .qna{
+    width: 40%;
+  }
+}
+@media screen and (max-width:1150px){
+
+}
+@media screen and (max-width:1024px){
+  
+}
+@media screen and (max-width:960px){
+  .container{
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width:768px){
+  .products, .service, .notice, .qna{
+    width:45%;
+    padding: 5px;
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,34 @@
+.naverbtn{
+  width: 400px;
+  height: 60px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #a9a5a5;
+  transition: scale 0.2s;
+  background-color:	#00C73C ;
+  overflow: hidden;
+  cursor: pointer;
+}
+.naverLogo{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.naverLogo img{
+  width: 15%;
+  height: 80%;
+}
+.naverTxt{
+  font-size: 20px;
+  color: #fff;
+  width: 80%;
+  font-family: var(--main-eg-font);
+  font-weight: 600;
+}
+@media screen and (max-width : 768px){
+  .naverbtn{
+    width: 300px;
+    height: 55px;
+  }
+}

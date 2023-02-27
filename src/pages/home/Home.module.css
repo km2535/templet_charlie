@@ -1,0 +1,11 @@
+.content{
+  position: relative;
+  top: 150px;
+  z-index: 1;
+  height: auto;
+  touch-action: pan-y;
+}
+.container{
+  position: relative;
+  top: 150px;
+}

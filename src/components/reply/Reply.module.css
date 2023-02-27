@@ -1,0 +1,68 @@
+.container{
+  width: 800px;
+  margin: 50px auto;
+}
+.detail{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.detailInput{
+  resize: none;
+  width: 80%;
+  white-space: pre-wrap;
+}
+.downloadFile{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.inputFile{
+  display: none;
+}
+.downloadTitle,.files{
+  margin-right: 4px;
+  color: #030303;
+  margin-bottom: 2px;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+}
+.downloadTitle{
+  margin-right: 20px;
+}
+.plusBtn{
+  cursor: pointer;
+  margin-right: 20px;
+}
+.fileList{
+  display: flex;
+}
+.fileContent{
+  display: flex;
+  align-items: center;
+}
+.imgList{
+  display: flex;
+}
+.imgContent{
+  width: 150px;
+  display: flex;
+}
+.imgs{
+  width: 100px;
+}
+.img{
+  width: 100%;
+}
+.close{
+  margin-right: 20px;
+  cursor: pointer;
+}
+.btn{
+  text-align: right;
+}

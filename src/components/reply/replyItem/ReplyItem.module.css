@@ -1,0 +1,90 @@
+.container{
+  display: flex;
+  width: 800px;
+  margin: 0 auto;
+  flex-direction: column;
+  border-bottom: 1px solid var(--main-font-bg-color);
+}
+.title{
+  display: flex;
+  justify-content: space-between;
+}
+.WRITER,.DATE,.fileTitle,.file{
+  margin-right: 4px;
+  color: #030303;
+  margin-bottom: 2px;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+}
+.WRITER{
+ margin-right: 20px; 
+}
+.DATE{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+.DATEDELETE{
+  margin-left: 5px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  color: var(--main-font-strong-color);
+}
+.DESCRIPTION{
+  width: 95%;
+  margin: 0 auto;
+  font-family: "Roboto","Arial",sans-serif;
+  font-size: 1.0rem;
+  line-height: 2rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  overflow-wrap: anywhere;
+  color: #030303;
+  white-space: pre-wrap;
+}
+.download{
+  display: flex;
+  flex-direction: column;
+}
+.FILE_URLS{
+  display: flex;
+}
+.fileTitle,.file{
+  margin-right: 20px;
+}
+.IMAGE_URLS{
+  display: flex;
+}
+.imgContent{
+  width: 100px;
+  margin-right: 20px;
+}
+.img{
+  width: 100%;
+}
+
+@media screen and (max-width:1200px){
+  .detailInput{
+    height: 80px;
+  }
+}
+@media screen and (max-width:1024px){
+  .container{
+   width: 70%;
+  }
+}
+@media screen and (max-width:768px){
+  .container{
+   width: 90%;
+  }
+  .DESCRIPTION{
+    font-size: 0.85rem;
+  }
+}

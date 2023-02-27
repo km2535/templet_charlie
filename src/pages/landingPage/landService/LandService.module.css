@@ -1,0 +1,82 @@
+.bg{
+  margin-top: 100px;
+  width: 100%;
+  height: 700px;
+  touch-action: pan-y;
+  background-color: #E5CCAF;
+}
+.sliderContainer{
+  touch-action: pan-y;
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  top: 250px;
+}
+.sliderContent{
+  width: 100%;
+  height: 500px;
+}
+.img{
+  width: 100%;
+  height: 500px;
+}
+@media screen and (max-width:1500px){
+  .sliderContainer{
+    width: 80%;
+  }
+}
+@media screen and (max-width:1400px){
+  .sliderContainer{
+    width: 90%;
+  }
+}
+@media screen and (max-width:1300px){
+
+}
+@media screen and (max-width:1248px){
+  .sliderContent{
+    height: 400px;
+  }
+  .img{
+    height: 400px;
+  }
+}
+@media screen and (max-width:1050px){
+  .bg{
+    height: 500px; 
+  }
+  .sliderContainer{
+    top: 150px;
+  }
+  .sliderContent{
+    height: 300px;
+  }
+  .img{
+    height: 300px;
+  }  
+}
+@media screen and (max-width:960px){
+  .bg{
+    height: 400px; 
+  }
+  .sliderContent{
+    height: 250px;
+  }
+  .img{
+    height: 250px;
+  }  
+}
+@media screen and (max-width:768px){
+  .bg{
+    height: 150px; 
+  }
+  .sliderContainer{
+    top: 180px;
+  }
+  .sliderContent{
+    height: 150px;
+  }
+  .img{
+    height: 150px;
+  }  
+}

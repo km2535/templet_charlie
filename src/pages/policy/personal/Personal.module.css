@@ -1,0 +1,15 @@
+.container{
+  width: 70%;
+  margin: 0 auto;
+  min-height: 700px;
+}
+.title{
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+@media screen and (max-width:768px){
+  .container{
+    width: 90%;
+  }
+}

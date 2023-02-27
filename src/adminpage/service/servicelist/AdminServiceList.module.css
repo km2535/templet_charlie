@@ -1,0 +1,80 @@
+.roomContainer{
+ display: flex;
+ flex-wrap: wrap;
+}
+.title{
+  width:10%;
+  text-align: right;
+  margin-right: 20px;
+  font-size: 24px;
+  font-family: var(--main-kr-font);
+  font-weight: 500;
+}
+.service{
+  width: 80%;
+  height: 700px;
+  border: 1px solid #000;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  overflow-y: scroll;
+}
+.service::-webkit-scrollbar{
+  width: 5px;
+  height: 5px;
+}
+.service::-webkit-scrollbar-track{
+   background-color: var(--main-font-bg-color );
+}
+.service::-webkit-scrollbar-thumb{
+  background-color: var(--main-font-color);
+  border-radius: 5px;
+}
+.mainTitle{
+  font-family: var(--main-kr-font);
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.addIcon{
+  width: 92%;
+  text-align: right;
+}
+.icon{
+  cursor: pointer;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 40px;
+  color: var(--main-font-disabled-color);
+  transition: color .2s;
+}
+.icon:hover{
+  color: var(--main-font-color); 
+}
+
+@media screen and (max-width:1280px){
+
+}
+@media screen and (max-width:1150px){
+  .icon{
+    font-size: 35px;
+  }
+}
+@media screen and (max-width:1024px){
+  
+}
+@media screen and (max-width:960px){
+  .icon{
+    font-size: 30px;
+  }
+}
+@media screen and (max-width:768px){
+  .title{
+  display: none;
+  }
+  .service{
+    width: 95%;
+    margin: 0 auto;
+  }
+}

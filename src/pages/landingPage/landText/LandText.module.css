@@ -1,0 +1,40 @@
+.wrapper{
+  width: 100vw;
+  overflow: hidden;
+  user-select: none;
+  touch-action: none;
+}
+.container{
+  position: absolute;
+  display: flex;
+  overflow: hidden;
+  flex-direction: row;
+  touch-action: none;
+}
+.text{
+  font-size: 750px;
+  color: #F1F1F1;
+  touch-action: none;
+}
+
+@media screen and (max-width:1248px){
+  .text{
+    font-size:700px;
+  }
+}
+@media screen and (max-width:1050px){
+  .text{
+    font-size:600px;
+  }
+}
+@media screen and (max-width:960px){
+ 
+  .text{
+    font-size:400px;
+  }
+}
+@media screen and (max-width:768px){
+  .text{
+    font-size:300px;
+  }
+}

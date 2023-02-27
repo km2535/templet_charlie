@@ -1,0 +1,54 @@
+.container{
+  width: 100%;
+  touch-action: pan-y;
+}
+.imgContainer{
+  width: 100%;
+  background-attachment: fixed;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-filter: brightness(60%);
+  filter: brightness(60%);
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  touch-action: pan-y;
+}
+.ment{
+  position: relative;
+  top: -300px;
+  text-align: center;
+  font-family: var(--sub-eg-font);
+  font-size: 40px;
+  touch-action: pan-y;
+  color: #fff;
+}
+
+@media screen and (max-width:1280px){
+  .ment{
+    font-size: 35px;
+  }
+}
+@media screen and (max-width:1024px){
+  .ment{
+    font-size: 30px;
+  }
+  
+}
+@media screen and (max-width:968px){
+  .ment{
+    font-size: 25px;
+  }
+  
+}
+@media screen and (max-width:764px){
+   .ment{
+    top: -200px;
+  }
+  .imgContainer{
+    min-height: 400px;
+    background-attachment: scroll;
+  }
+}

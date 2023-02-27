@@ -1,0 +1,139 @@
+.container{
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.table{
+  border-collapse: collapse
+}
+.thead,.tbody{
+  border-bottom: 2px solid #000;
+}
+.tbody{
+  height: 500px;
+}
+.tbodyTr{
+   border-bottom: 1px solid #B7B7B7;
+}
+.theadTr, .tbodyTr{
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  font-family: var(--main-kr-font);
+  height: 40px;
+}
+.downloadTr{
+  height: 30px;
+}
+.thTitle, .tdTitle{
+  width: 50%;
+}
+.thWriter,.tdWriter{
+  width: 15%;
+}
+.thReadCnt ,.tdReadCnt{
+  width: 15%;
+}
+.thDate ,.tdDate{
+  width: 20%;
+}
+.tdDate{
+  font-size: 15px;
+}
+.downloadFile{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.downloadTitle{
+  width: 20%;
+  font-size: 16px;
+  padding: 10px;
+  text-align: center;
+}
+.download{
+  width: max-content;
+  font-size: 18px;
+  padding: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: var( --sideNavbar-font-agategrey);
+}
+.download:hover{
+  color: var(--main-font-strong-color);
+}
+.imgContainer{
+  width: 70%;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+}
+.img{
+  max-width: 600px;
+  max-height: 600px;
+}
+.description{
+  padding: 10px 50px;
+  font-size: 18px;
+  font-family: var(--main-kr-font);
+  white-space: pre-wrap
+}
+.btnContainer{
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+@media screen and (max-width:1200px){
+  .container{
+    width: 1000px;
+  }
+}
+@media screen and (max-width:1024px){
+  .container{
+    width: 95%;
+  }
+}
+@media screen and (max-width:768px){
+  .container{
+    width: 100%;
+  }
+  .table{
+    width: 100%;
+  }
+  .theadTr, .tbodyTr{
+    width: 100%;
+    font-size: 14px;
+  }
+  .thTitle, .tdTitle{
+    width: 30%;
+  }
+  .thWriter,.tdWriter{
+    width: 15%;
+  }
+  .tdWriter{
+    font-size: 12px;
+  }
+  .thReadCnt ,.tdReadCnt{
+    width: 10%;
+  }
+  .img{
+    max-width: 300px;
+    max-height: 300px;
+  }
+  .download{
+    font-size: 14px;
+    padding: 5px;
+  }
+  .tdDate{
+    font-size: 12px;
+  }
+  .description{
+    font-size: 14px;
+  }
+  .downloadFile{
+    width: 100vw;
+    flex-wrap: wrap;
+  }
+}
