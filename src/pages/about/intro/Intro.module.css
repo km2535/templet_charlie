@@ -25,6 +25,9 @@
   flex-direction: column;
   justify-content: space-around;
 }
+.subDesc{
+  white-space: pre-wrap;
+}
 .title{
   font-size: 30px;
   font-weight: bold; 

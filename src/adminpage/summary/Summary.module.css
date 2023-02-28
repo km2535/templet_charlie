@@ -21,10 +21,20 @@
   text-align: center;
   margin-bottom: 20px;
 }
+.btn{
+  width: 95%;
+  text-align: right;
+  margin: 20px 0;
+}
 
 @media screen and (max-width:1280px){
   .products, .service, .notice, .qna{
     width: 40%;
+  }
+  .btn{
+    width: 85%;
+    text-align: right;
+    margin: 20px 0;
   }
 }
 @media screen and (max-width:1150px){
@@ -37,11 +47,17 @@
   .container{
     margin-top: 10px;
   }
+  .btn{
+    width: 90%;
+  }
 }
 @media screen and (max-width:768px){
   .products, .service, .notice, .qna{
     width:45%;
     padding: 5px;
     font-size: 24px;
+  }
+  .btn{
+    width: 95%;
   }
 }

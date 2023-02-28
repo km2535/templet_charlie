@@ -9,7 +9,8 @@ import "./LandService.css";
 import "swiper/css";
 import "swiper/css/navigation";
 import LandText from "../landText/LandText";
-export default function LandService() {
+export default function LandService({ mainPage }) {
+  const { SECOND_SECTION_BG_TITLE, BOTTOM_BG_COLOR } = mainPage;
   const navegate = useNavigate();
   const [services, setServices] = useState([]);
   useEffect(() => {
@@ -49,8 +50,11 @@ export default function LandService() {
           ))}
         </Swiper>
       </div>
-      <LandText text={"PACKAGE"} position={-200} />
-      <div className={styles.bg}></div>
+      <LandText text={SECOND_SECTION_BG_TITLE} position={-200} />
+      <div
+        className={styles.bg}
+        style={{ backgroundColor: `${BOTTOM_BG_COLOR}` }}
+      ></div>
     </div>
   );
 }

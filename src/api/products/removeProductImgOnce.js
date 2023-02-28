@@ -1,7 +1,7 @@
 export const removeProductImgOnce = async (product) => {
-  const { id, fileName } = product;
+  const { fileName } = product;
   const formData = new FormData();
-  formData.append("fileId", id);
+  formData.append("fileId", "banner");
   formData.append("fileName", fileName);
 
   await fetch(

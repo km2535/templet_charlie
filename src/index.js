@@ -40,6 +40,10 @@ import RoomDetail from "./pages/room/roomDetail/RoomDetail";
 import Personal from "./pages/policy/personal/Personal";
 import Email from "./pages/policy/email/Email";
 import Use from "./pages/policy/use/Use";
+import Design from "./adminpage/designSkin/Design";
+import MainDesign from "./adminpage/designSkin/mainDesign/MainDesign";
+import SubAbout from "./adminpage/designSkin/subDesign/SubAbout";
+import SubProduct from "./adminpage/designSkin/subDesign/SubProduct";
 
 const router = createBrowserRouter([
   {
@@ -246,6 +250,25 @@ const router = createBrowserRouter([
               process.env.REACT_APP_API_QNA_EDIT_URL +
               "/:id",
             element: <AdminQnaEdit />,
+          },
+          {
+            path: process.env.REACT_APP_API_ADMIN_DESIGN_URL,
+            element: <Design />,
+            children: [
+              {
+                index: true,
+                element: <MainDesign />,
+              },
+              {
+                path: process.env.REACT_APP_API_ADMIN_DESIGN_URL + "/subAbout",
+                element: <SubAbout />,
+              },
+              {
+                path:
+                  process.env.REACT_APP_API_ADMIN_DESIGN_URL + "/subProduct",
+                element: <SubProduct />,
+              },
+            ],
           },
         ],
       },

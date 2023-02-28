@@ -18,7 +18,6 @@ export default function LandText({ text, position }) {
       eleContainer.style.transform = `translateY(${position}px) translateX(-${count}px)`;
       return count;
     };
-
     const animate = () => {
       count++;
       // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -30,7 +29,7 @@ export default function LandText({ text, position }) {
     };
     window.addEventListener("scroll", scrollHandler);
     animate();
-  }, [count]);
+  }, [count, text]);
   return (
     <div className={styles.wrapper}>
       <div ref={refContainer} className={styles.container}>

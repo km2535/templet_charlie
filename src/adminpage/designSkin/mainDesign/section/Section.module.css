@@ -1,0 +1,55 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 20px auto;
+}
+.first, .second, .thirth{
+  display: flex;
+  justify-content: center;
+}
+.img, .description{
+  width: 50%;
+  text-align: center;
+  z-index: 99;
+}
+.img img{
+  cursor: pointer;
+  width: 400px;
+  height: 450px;
+}
+.description{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: var(--main-eg-font);
+  white-space: pre-wrap; 
+}
+.title{
+  border: none;
+  text-align: center;
+  touch-action: none;
+  font-size: 45px;
+  background-color: transparent;
+  font-weight: bold;
+}
+.subTitle, .subTitle textarea{
+  resize: none;
+  border: none;
+  font-family: var(--main-eg-font);
+  touch-action: none;
+  background-color: transparent;
+  font-size: 20px;
+  width: 100%;
+  height: auto;
+  color: #676767;
+}
+.subTitle textarea{
+  width: 100%;
+  height: 100px;
+  text-align: center;
+ }
+ .bg2Input{
+  display: none;
+}

@@ -1,0 +1,22 @@
+.wrapper{
+  width: 100%;
+  overflow: hidden;
+  user-select: none;
+  touch-action: none;
+}
+.container{
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  flex-direction: row;
+  touch-action: none;
+  font-size: 30px;
+  color: #131313;
+  margin: 20px auto;
+}
+.text{
+  font-size: 50px;
+  text-align: center;
+  color: #c4c4c4;
+  touch-action: none;
+}

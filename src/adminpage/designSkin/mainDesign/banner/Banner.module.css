@@ -1,0 +1,50 @@
+.bannerContainer{
+  width: 100%;
+  height: 60vh;
+}
+.bg1ImgContainer{
+  width: 100%;
+  background-attachment: fixed;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-filter: brightness(60%);
+  filter: brightness(60%);
+  min-height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.ment{
+  position: relative;
+  top: -55%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  touch-action: none;
+  color: #fff;
+}
+.mainMent{
+  width: 95%;
+  font-family: var(--main-kr-font);
+  text-align: center;
+  font-size: 60px;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  margin-bottom: 30px;
+}
+.typing{
+  width: 95%;
+  font-size: 24px;
+  touch-action: none;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  font-family: var(--main-kr-font);
+  color: #fff;
+}
+.bg1Input{
+  display: none;
+}

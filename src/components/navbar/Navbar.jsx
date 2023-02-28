@@ -10,7 +10,7 @@ import { useAuthContext } from "../../context/AuthContextProvider";
 import { useRef } from "react";
 import { useEffect } from "react";
 
-export default function Navbar({ option }) {
+export default function Navbar({ option, mainPage }) {
   const [navibarStyle, setNavibarStyle] = useState(false);
   const { user } = useAuthContext();
   const naviRef = useRef();
@@ -43,7 +43,7 @@ export default function Navbar({ option }) {
         onClick={toggleHandler}
         className={sub ? styles.menuDark : styles.menu}
       />
-      <SideNavbar setSide={setSide} side={side} />
+      <SideNavbar mainPage={mainPage} setSide={setSide} side={side} />
       {main && (
         <div className={styles.logo}>
           <div className={styles.logoContainer} onClick={() => navigate("/")}>

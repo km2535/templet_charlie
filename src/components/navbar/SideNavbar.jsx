@@ -4,7 +4,7 @@ import styles from "./SideNavbar.module.css";
 import { SiNaver, SiInstagram } from "react-icons/si";
 import { AiOutlineFacebook, AiOutlineClose } from "react-icons/ai";
 
-export default function SideNavbar({ side, setSide }) {
+export default function SideNavbar({ side, setSide, mainPage }) {
   const navigate = useNavigate();
   const naviHandler = (e) => {
     const { id } = e.target;
@@ -45,7 +45,14 @@ export default function SideNavbar({ side, setSide }) {
     setSide(false);
   };
   return (
-    <div className={side ? styles.container : styles.hiddenContainer}>
+    <div
+      className={side ? styles.container : styles.hiddenContainer}
+      style={
+        mainPage
+          ? { backgroundColor: mainPage.BOTTOM_BG_COLOR }
+          : { backgroundColor: `#E5CCAF` }
+      }
+    >
       <div className={styles.close} onClick={naviClose}>
         <AiOutlineClose />
       </div>

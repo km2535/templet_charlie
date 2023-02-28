@@ -52,6 +52,7 @@
   align-items: center;
   justify-content: space-evenly;
   font-family: var(--main-eg-font);
+  white-space: pre-wrap; 
 }
 .title{
   touch-action: none;
