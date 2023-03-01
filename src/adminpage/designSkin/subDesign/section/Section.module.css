@@ -89,6 +89,12 @@
   .bg{
     height: 300px;
   }
+  .imgContent{
+    height: 350px;
+  }
+  .changeBg{
+    transform: translateY(-190px);
+  }
 }
 @media screen and (max-width:764px){
   .container{
@@ -123,6 +129,6 @@
   }
   .bg{
     height: 200px;
-    transform: translateY(-400px);
+    transform: translateY(-250px);
   }
 }

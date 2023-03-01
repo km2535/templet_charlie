@@ -65,15 +65,18 @@
   
 }
 @media screen and (max-width:764px){
+  .container{
+    margin-top: 150px;
+  }
   .img{
-    min-height: 500px;
+    min-height: 400px;
   }
   .content{
     top: -150px;
     height: 150px;
   }
   .description{
-    width: 300px;
+    width: 280px;
     height: 150px;
   }
   .title{
@@ -81,6 +84,6 @@
     font-weight: bold; 
   }
   .subDesc,.linkDesc{
-    font-size: 14px;
+    font-size: 13px;
   }
 }

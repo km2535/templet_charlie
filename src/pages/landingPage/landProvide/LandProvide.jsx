@@ -50,55 +50,62 @@ export default function LandProvide({ mainPage }) {
         threshold: 0.5,
       }
     );
-    showTitle.observe(first);
-    showSecond.observe(second);
-    showThirth.observe(thirth);
-  }, []);
+    mainPage && showTitle.observe(first);
+    mainPage && showSecond.observe(second);
+    mainPage && showThirth.observe(thirth);
+  }, [mainPage]);
   return (
-    <div className={styles.container}>
-      <div className={first ? styles.first : styles.none} id="first">
-        <div className={styles.img}>
-          <img
-            src={`${process.env.REACT_APP_URL_MAINPAGE}/section0/${SECTION_FIRST_IMG}`}
-            alt=""
-          />
-        </div>
-        <div className={styles.description} id="first_description">
-          <div className={styles.title}>{SECTION_FIRST_TITLE}</div>
-          <div className={styles.subTitle}>
-            <div>{SECTION_FIRST_DESC}</div>
+    <>
+      {mainPage && (
+        <div className={styles.container}>
+          <div className={first ? styles.first : styles.none} id="first">
+            <div className={styles.img}>
+              <img
+                src={`${process.env.REACT_APP_URL_MAINPAGE}/section0/${SECTION_FIRST_IMG}`}
+                alt=""
+              />
+            </div>
+            <div className={styles.description} id="first_description">
+              <div className={styles.title}>{SECTION_FIRST_TITLE}</div>
+              <div className={styles.subTitle}>
+                <div>{SECTION_FIRST_DESC}</div>
+              </div>
+            </div>
+          </div>
+          <LandText text={FIRST_SECTION_BG_TITLE} position={-300} />
+          <div
+            className={second ? styles.second : styles.noneSecond}
+            id="second"
+          >
+            <div className={styles.description}>
+              <div className={styles.title}>{SECTION_SECOND_TITLE}</div>
+              <div className={styles.subTitle}>
+                <div>{SECTION_SECOND_DESC}</div>
+              </div>
+            </div>
+            <div className={styles.img}>
+              <img
+                src={`${process.env.REACT_APP_URL_MAINPAGE}/section1/${SECTION_SECOND_IMG}`}
+                alt=""
+              />
+            </div>
+          </div>
+          <div className={thirth ? styles.thirth : styles.none} id="thirth">
+            <div className={styles.img}>
+              <img
+                src={`${process.env.REACT_APP_URL_MAINPAGE}/section2/${SECTION_THIRD_IMG}`}
+                alt=""
+              />
+            </div>
+            <div className={styles.description}>
+              <div className={styles.title}>{SECTION_THIRD_TITLE}</div>
+              <div className={styles.subTitle}>
+                <div>{SECTION_THIRD_DESC}</div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <LandText text={FIRST_SECTION_BG_TITLE} position={-300} />
-      <div className={second ? styles.second : styles.noneSecond} id="second">
-        <div className={styles.description}>
-          <div className={styles.title}>{SECTION_SECOND_TITLE}</div>
-          <div className={styles.subTitle}>
-            <div>{SECTION_SECOND_DESC}</div>
-          </div>
-        </div>
-        <div className={styles.img}>
-          <img
-            src={`${process.env.REACT_APP_URL_MAINPAGE}/section1/${SECTION_SECOND_IMG}`}
-            alt=""
-          />
-        </div>
-      </div>
-      <div className={thirth ? styles.thirth : styles.none} id="thirth">
-        <div className={styles.img}>
-          <img
-            src={`${process.env.REACT_APP_URL_MAINPAGE}/section2/${SECTION_THIRD_IMG}`}
-            alt=""
-          />
-        </div>
-        <div className={styles.description}>
-          <div className={styles.title}>{SECTION_THIRD_TITLE}</div>
-          <div className={styles.subTitle}>
-            <div>{SECTION_THIRD_DESC}</div>
-          </div>
-        </div>
-      </div>
-    </div>
+      )}
+    </>
   );
 }

@@ -11,7 +11,8 @@ import Section from "./section/Section";
 import styles from "./SubAbout.module.css";
 
 export default function SubAbout() {
-  const [subPage, setSubPage] = useState();
+  const [subPage, setSubPage] = useState(null);
+  const [origin, setOrigin] = useState(null);
   const [previewBannerImg, setPreviewBannerImg] = useState(null);
   const [bannerImgFile, setBannerImgFile] = useState(null);
   const [previewBottomImg, setPreviewBottomImg] = useState(null);
@@ -20,16 +21,20 @@ export default function SubAbout() {
 
   useEffect(() => {
     readSubPage(setSubPage);
+    readSubPage(setOrigin);
   }, []);
 
   const fileSubmit = (e) => {
     e.preventDefault();
-    removeImg("banner").then(() => {
-      uploadSectionImg(bannerImgFile, "banner");
-    });
-    removeImg("bottom").then(() => {
-      uploadSectionImg(bottomImgFile, "bottom");
-    });
+    subPage?.BANNER_IMG !== origin?.BANNER_IMG &&
+      removeImg("banner").then(() => {
+        uploadSectionImg(bannerImgFile, "banner");
+      });
+
+    subPage?.BOTTOM_IMG !== origin?.BOTTOM_IMG &&
+      removeImg("bottom").then(() => {
+        uploadSectionImg(bottomImgFile, "bottom");
+      });
     updateMainDesign(subPage);
     alert("수정이 완료되었습니다.");
     navigate("/admin");
