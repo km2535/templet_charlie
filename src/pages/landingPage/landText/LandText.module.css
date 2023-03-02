@@ -2,14 +2,12 @@
   width: 100%;
   overflow: hidden;
   user-select: none;
-  touch-action: none;
 }
 .container{
   position: absolute;
   display: flex;
   overflow: hidden;
   flex-direction: row;
-  touch-action: none;
 }
 .text{
   font-size: 750px;

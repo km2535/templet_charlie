@@ -53,3 +53,55 @@
  .bg2Input{
   display: none;
 }
+@media screen and (max-width:1240px){
+  .img img{
+    width: 300px;
+    height: 350px;
+  }
+  .title{
+    font-size: 35px;
+  }
+  .subTitle textarea{
+    font-size: 18px;  
+  }
+}
+@media screen and (max-width:1024px){
+  .img img{
+    width: 250px;
+    height: 300px;
+  }
+  .title{
+    font-size: 30px;
+  }
+}
+@media screen and (max-width:960px){
+  .container{
+    width: 90%;
+  }
+  .img img{
+    width: 200px;
+    height: 250px;
+  }
+  .title{
+    font-size: 25px;
+  }
+  .subTitle textarea{
+    font-size: 14px;  
+  }
+}
+
+@media screen and (max-width:768px){
+  .container{
+    width: 95%;
+  }
+  .img img{
+    width: 120px;
+    height: 170px;
+  }
+  .title{
+    font-size: 20px;
+  }
+  .subTitle textarea{
+    font-size: 12px;  
+  }
+}

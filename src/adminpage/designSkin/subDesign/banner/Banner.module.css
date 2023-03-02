@@ -48,8 +48,55 @@
 .bg1Input{
   display: none;
 }
-@media screen and (max-width:960px){
+
+@media screen and (max-width:1240px){
+  .bannerContainer{
+    height: 55vh;
+  }
+  .bg1ImgContainer{
+    min-height: 55vh;
+  }
  .mainMent{
-  font-size: 24px;
+  font-size: 50px;
+  } 
+  .typing{
+  font-size: 22px;
+  }
+}
+@media screen and (max-width:1024px){
+  .bannerContainer{
+    height: 50vh;
+  }
+  .bg1ImgContainer{
+    min-height: 50vh;
+  }
+  .mainMent{
+    font-size: 45px;
+  } 
+  .typing{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width:960px){
+  .bannerContainer{
+    height: 45vh;
+  }
+  .bg1ImgContainer{
+    min-height: 45vh;
+  }
+ .mainMent{
+  font-size: 35px;
  } 
+}
+
+@media screen and (max-width:768px){
+.bg1ImgContainer{
+  background-attachment: scroll;
+}
+.mainMent{
+  font-size: 20px;
+} 
+.typing{
+  font-size: 16px;
+}
 }

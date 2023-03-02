@@ -17,3 +17,18 @@
 .title:hover{
   color: var(--main-font-strong-color);
 }
+
+@media screen and (max-width:960px){
+
+  .nav{
+   width: 85%; 
+  }
+
+}
+
+@media screen and (max-width:768px){
+
+  .nav{
+   width: 90%; 
+  }
+}

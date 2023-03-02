@@ -43,7 +43,6 @@ import Use from "./pages/policy/use/Use";
 import Design from "./adminpage/designSkin/Design";
 import MainDesign from "./adminpage/designSkin/mainDesign/MainDesign";
 import SubAbout from "./adminpage/designSkin/subDesign/SubAbout";
-import SubProduct from "./adminpage/designSkin/subDesign/SubProduct";
 
 const router = createBrowserRouter([
   {
@@ -262,11 +261,6 @@ const router = createBrowserRouter([
               {
                 path: process.env.REACT_APP_API_ADMIN_DESIGN_URL + "/subAbout",
                 element: <SubAbout />,
-              },
-              {
-                path:
-                  process.env.REACT_APP_API_ADMIN_DESIGN_URL + "/subProduct",
-                element: <SubProduct />,
               },
             ],
           },

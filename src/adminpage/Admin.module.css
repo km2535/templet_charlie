@@ -5,3 +5,6 @@
   text-align: center;
   margin-bottom: 20px;
 }
+.container{
+  overflow: hidden;
+}

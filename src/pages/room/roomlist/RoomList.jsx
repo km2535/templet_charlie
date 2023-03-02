@@ -14,10 +14,10 @@ export default function RoomList({ currentPage }) {
     <div className={styles.container}>
       <div className={styles.mainTitle}>ROOM</div>
       <div className={styles.subTitle}>
-        <div className={styles.txt1}>
+        {/* <div className={styles.txt1}>
           우리 민호텔에는 다양하고 특별한 방들로
-        </div>
-        <div className={styles.txt2}>고객만족을 실현하고 있습니다.</div>
+        </div> */}
+        {/* <div className={styles.txt2}>고객만족을 실현하고 있습니다.</div> */}
       </div>
       <div className={styles.roomCard}>
         {rooms?.map((room) => (

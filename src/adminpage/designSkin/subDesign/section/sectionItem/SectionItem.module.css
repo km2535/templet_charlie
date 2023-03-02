@@ -11,12 +11,14 @@
   background-size: cover;
   min-height: 500px;
   cursor: pointer;
+  overflow: hidden;
 }
 .number{
   font-size: 350px;
   width: 24%;
   background-color: transparent;
   position: absolute;
+  touch-action: none;
   font-family: var(--main-eg-font);
   border: none;
   color: #7D7D7D;
@@ -26,6 +28,7 @@
   position: relative;
   font-weight: bold;
   width: 95%;
+  white-space: pre-wrap;
   border: none;
   background-color: transparent;
   resize: none;
@@ -35,6 +38,8 @@
   color: var(--font-white-color);
 }
 .description{
+  touch-action: pan-y;
+  white-space: pre-wrap;
   opacity: 1;
   transition: .2s;
 }
@@ -102,15 +107,21 @@
     font-size: 16px;
   }
   .number{
-    font-size: 100px;
+    width: 18%;
+    font-size: 50px;
+    text-align: left;
   }
   .descTitle{
+    width: 90%;
+    text-align: left;
     top: 80px;
     left: 5px;
-    font-size: 40px;
+    font-size: 25px;
   }
   .descDetail{
     top: 80px;
+    text-align: left;
+    width: 95%;
     font-size: 12px;
   }
   .cover{

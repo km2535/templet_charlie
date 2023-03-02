@@ -16,3 +16,27 @@
   margin: 20px auto;
   text-align: right;
 }
+
+@media screen and (max-width:1240px){
+
+}
+@media screen and (max-width:1024px){
+  .container{
+    width: 85%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width:960px){
+  .container{
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width:768px){
+  .container{
+    width: 95%;
+    margin: 0 auto;
+  }
+
+}

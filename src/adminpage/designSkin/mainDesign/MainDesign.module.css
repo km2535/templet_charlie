@@ -16,3 +16,31 @@
   margin: 20px auto;
   text-align: right;
 }
+
+@media screen and (max-width:1240px){
+  .slider{
+    height: 25vh;
+  }
+}
+@media screen and (max-width:1024px){
+  .slider{
+    height: 20vh;
+  }  
+}
+@media screen and (max-width:960px){
+  .slider{
+    height: 15vh;
+  }
+  .container{
+    width: 90%;
+  }
+}
+
+@media screen and (max-width:768px){
+  .slider{
+    height: 10vh;
+  }
+  .container{
+    width: 95%;
+  }
+}

@@ -14,9 +14,6 @@ export default function Design() {
         <div onClick={() => navigate("subAbout")} className={styles.title}>
           About
         </div>
-        <div className={styles.title} onClick={() => navigate("subProduct")}>
-          Product
-        </div>
       </div>
       <Outlet />
     </div>

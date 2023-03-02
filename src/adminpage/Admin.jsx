@@ -6,7 +6,7 @@ import styles from "./Admin.module.css";
 
 export default function Admin() {
   return (
-    <div>
+    <div className={styles.container}>
       <AdminNavbar />
       <div className={styles.mainTitle}>ADMIN</div>
       <Outlet />
