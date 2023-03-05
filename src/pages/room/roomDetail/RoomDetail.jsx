@@ -22,6 +22,7 @@ export default function RoomDetail() {
       IMAGE_URLS,
       PROVIDE_SERVICE,
       SUMMATION_DESCRIPTIONS,
+      PRICE,
     },
   } = useLocation();
   const [imgUrl, setImgUrl] = useState([]);
@@ -61,6 +62,7 @@ export default function RoomDetail() {
       </div>
       <div className={styles.content}>
         <div className={styles.TITLE}>{TITLE}</div>
+        <div className={styles.PRICE}>{PRICE}</div>
         <div className={styles.DETAIL_DESCRIPTION}>{DETAIL_DESCRIPTION}</div>
         <div className={styles.summaryContainer}>
           <div className={styles.summary}>

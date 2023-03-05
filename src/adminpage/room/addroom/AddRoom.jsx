@@ -49,7 +49,7 @@ export default function AddRoom() {
     if (id === "files") {
       const options = {
         maxSizeMb: 1,
-        maxWidthOrHeight: 800,
+        maxWidthOrHeight: 1000,
       };
       for (let i = 0; i < files.length; i++) {
         //이미지의 경로를 지정함.
@@ -208,7 +208,7 @@ export default function AddRoom() {
           <input
             className={styles.priceInput}
             type={"text"}
-            placeholder="숫자만 작성해주세요."
+            placeholder="ex. 월 ￦200,000원"
             id="PRICE"
             required
             onChange={changeHandler}

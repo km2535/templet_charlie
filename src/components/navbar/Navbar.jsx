@@ -94,7 +94,7 @@ export default function Navbar({ option, mainPage }) {
                 navigate(process.env.REACT_APP_API_SUB_OPTION_TWO_URL)
               }
             >
-              room
+              class
             </li>
             <li
               id="option4"

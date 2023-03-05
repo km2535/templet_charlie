@@ -20,6 +20,7 @@ export default function ServiceItem({ service }) {
     IMAGE_URLS,
     PROVIDE_SERVICE,
     SUMMATION_DESCRIPTIONS,
+    PRICE,
   } = service;
   useEffect(() => {
     setImgUrl(IMAGE_URLS?.split(","));
@@ -51,6 +52,7 @@ export default function ServiceItem({ service }) {
       </div>
       <div className={styles.content}>
         <div className={styles.TITLE}>{TITLE}</div>
+        <div className={styles.TITLE}>{PRICE}</div>
         <div className={styles.DETAIL_DESCRIPTION}>{DETAIL_DESCRIPTION}</div>
         <div className={styles.summaryContainer}>
           <div className={styles.summary}>

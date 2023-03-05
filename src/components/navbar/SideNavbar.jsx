@@ -67,7 +67,7 @@ export default function SideNavbar({ side, setSide, mainPage }) {
           location
         </li>
         <li id="option4" className={styles.option4} onClick={naviHandler}>
-          room
+          class
         </li>
         <li id="option5" className={styles.option5} onClick={naviHandler}>
           service

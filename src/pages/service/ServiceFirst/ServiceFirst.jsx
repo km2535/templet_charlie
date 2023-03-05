@@ -64,6 +64,7 @@ export default function ServiceFirst() {
         </div>
         <div className={styles.content}>
           <div className={styles.TITLE}>{first?.TITLE}</div>
+          <div className={styles.PRICE}>{first?.PRICE}</div>
           <div className={styles.DETAIL_DESCRIPTION}>
             {first?.DETAIL_DESCRIPTION}
           </div>

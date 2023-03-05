@@ -16,7 +16,7 @@ export default function BottomBanner({
     if (id === "BOTTOM_IMG") {
       const options = {
         maxSizeMb: 1,
-        maxWidthOrHeight: 800,
+        maxWidthOrHeight: 2000,
       };
       for (let i = 0; i < files.length; i++) {
         if (files[i].type.includes("image")) {

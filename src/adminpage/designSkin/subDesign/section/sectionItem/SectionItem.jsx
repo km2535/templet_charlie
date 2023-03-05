@@ -20,7 +20,7 @@ export default function SectionItem({
     const { value, id, files } = e.target;
     const options = {
       maxSizeMb: 1,
-      maxWidthOrHeight: 800,
+      maxWidthOrHeight: 1500,
     };
     if (files) {
       for (let i = 0; i < files.length; i++) {
