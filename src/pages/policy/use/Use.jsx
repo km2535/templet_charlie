@@ -17,8 +17,8 @@ export default function Use() {
             </p>
             <ol>
               <li>
-                본 약관은 <span className="showText">민호텔</span>가 운영하는
-                온라인 쇼핑몰 '
+                본 약관은 <span className="showText">민스필라테스</span>가
+                운영하는 온라인 쇼핑몰 '
                 <span className="showText">https://www.kangmin.shop</span>
                 '에서 제공하는 서비스(이하 '서비스'라 합니다)를 이용함에 있어
                 당사자의 권리 의무 및 책임사항을 규정하는 것을 목적으로
@@ -35,7 +35,7 @@ export default function Use() {
             </p>
             <ol>
               <li>
-                '회사'라 함은, '<span className="showText">민호텔</span>
+                '회사'라 함은, '<span className="showText">민스필라테스</span>
                 '가 재화 또는 용역을 이용자에게 제공하기 위하여 컴퓨터 등
                 정보통신설비를 이용하여 재화등을 거래할 수 있도록 설정한 가상의
                 영업장을 운영하는 사업자를 말하며, 아울러&nbsp; '

@@ -32,7 +32,7 @@ export default function AdminNavbar() {
               navigate(process.env.REACT_APP_API_ADMIN_ROOMLIST_URL)
             }
           >
-            products
+            event
           </li>
           <li
             className={styles.gnbTitle}

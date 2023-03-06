@@ -11,7 +11,7 @@ export default function Summary() {
     <>
       <div className={styles.container}>
         <div className={styles.products}>
-          제품 보기
+          이벤트 보기
           <SummaryCard serviceName={"product"} />
         </div>
         <div className={styles.service}>

@@ -12,7 +12,7 @@ export default function RoomList({ currentPage }) {
   }, [currentPage]);
   return (
     <div className={styles.container}>
-      <div className={styles.mainTitle}>ROOM</div>
+      <div className={styles.mainTitle}>EVENT</div>
       <div className={styles.subTitle}>
         {/* <div className={styles.txt1}>
           우리 민호텔에는 다양하고 특별한 방들로

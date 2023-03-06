@@ -6,7 +6,7 @@ export default function Personal() {
       <p className={styles.title}>개인정보처리지침</p>
       <p className="ls2 lh6 bs5 ts4">
         <span className="spanphasis">
-          &lt; 민호텔 &gt;('https://www.kangmin.shop'이하 '민호텔')
+          &lt; 민스필라테스 &gt;('https://www.kangmin.shop'이하 '민스필라테스')
         </span>
         은(는) 「개인정보 보호법」 제30조에 따라 정보주체의 개인정보를 보호하고
         이와 관련한 고충을 신속하고 원활하게 처리할 수 있도록 하기 위하여 다음과
@@ -24,7 +24,8 @@ export default function Personal() {
           <br />
           <br />
           <span className="spanphasis">
-            &lt; 민호텔 &gt;('https://www.kangmin.shop'이하 '민호텔')
+            &lt; 민스필라테스 &gt;('https://www.kangmin.shop'이하
+            '민스필라테스')
           </span>
           은(는) 다음의 목적을 위하여 개인정보를 처리합니다. 처리하고 있는
           개인정보는 다음의 목적 이외의 용도로는 이용되지 않으며 이용 목적이
@@ -53,7 +54,7 @@ export default function Personal() {
       <p className="lh6 bs4">
         <strong>제2조(개인정보의 처리 및 보유 기간)</strong>
         <br />
-        <br />① <span className="spanphasis">&lt; 민호텔 &gt;</span>은(는)
+        <br />① <span className="spanphasis">&lt; 민스필라테스 &gt;</span>은(는)
         법령에 따른 개인정보 보유·이용기간 또는 정보주체로부터 개인정보를 수집
         시에 동의받은 개인정보 보유·이용기간 내에서 개인정보를 처리·보유합니다.
         <br />
@@ -75,8 +76,8 @@ export default function Personal() {
       <p className="lh6 bs4">
         <strong>제3조(처리하는 개인정보의 항목) </strong>
         <br />
-        <br /> ① <span className="spanphasis">&lt; 민호텔 &gt;</span>은(는)
-        다음의 개인정보 항목을 처리하고 있습니다.
+        <br /> ① <span className="spanphasis">&lt; 민스필라테스 &gt;</span>
+        은(는) 다음의 개인정보 항목을 처리하고 있습니다.
       </p>
       <ul className="list_indent2 mgt10">
         <li className="tt">1&lt; 홈페이지 회원가입 및 관리 &gt;</li>
@@ -90,10 +91,10 @@ export default function Personal() {
         <br />
         <br /> ①{" "}
         <span className="spanphasis">
-          &lt; 민호텔 &gt;은(는) 개인정보를 제1조(개인정보의 처리 목적)에서
-          명시한 범위 내에서만 처리하며, 정보주체의 동의, 법률의 특별한 규정 등
-          「개인정보 보호법」 또한 민호텔은 개인정보를 제 3자에게 제공하지
-          않습니다.
+          &lt; 민스필라테스 &gt;은(는) 개인정보를 제1조(개인정보의 처리
+          목적)에서 명시한 범위 내에서만 처리하며, 정보주체의 동의, 법률의
+          특별한 규정 등 「개인정보 보호법」 또한 민스필라테스은 개인정보를 제
+          3자에게 제공하지 않습니다.
         </span>
       </p>
       <span className="spanphasis">
@@ -106,16 +107,16 @@ export default function Personal() {
         </p>
         <p className="ls2">
           <span className="spanphasis">
-            <br />① &lt; 민호텔 &gt; 은(는) 개인정보 보유기간의 경과, 처리목적
-            달성 등 개인정보가 불필요하게 되었을 때에는 지체없이 해당 개인정보를
-            파기합니다.
+            <br />① &lt; 민스필라테스 &gt; 은(는) 개인정보 보유기간의 경과,
+            처리목적 달성 등 개인정보가 불필요하게 되었을 때에는 지체없이 해당
+            개인정보를 파기합니다.
             <br />
             <br />② 개인정보 파기의 절차 및 방법은 다음과 같습니다.
             <br />
             1. 파기절차
-            <br /> &lt; 민호텔 &gt; 은(는) 파기 사유가 발생한 개인정보를
-            선정하고, &lt; 민호텔 &gt; 의 개인정보 보호책임자의 승인을 받아
-            개인정보를 파기합니다.
+            <br /> &lt; 민스필라테스 &gt; 은(는) 파기 사유가 발생한 개인정보를
+            선정하고, &lt; 민스필라테스 &gt; 의 개인정보 보호책임자의 승인을
+            받아 개인정보를 파기합니다.
             <br />
           </span>
         </p>
@@ -141,15 +142,16 @@ export default function Personal() {
         <p className="ls2">
           <span className="spanphasis">
             <br />
-            <br />① 정보주체는 민호텔에 대해 언제든지 개인정보
+            <br />① 정보주체는 민스필라테스에 대해 언제든지 개인정보
             열람·정정·삭제·처리정지 요구 등의 권리를 행사할 수 있습니다.
           </span>
         </p>
         <p className="sub_p">
           <span className="spanphasis">
-            ② 제1항에 따른 권리 행사는민호텔에 대해 「개인정보 보호법」 시행령
-            제41조제1항에 따라 서면, 전자우편, 모사전송(FAX) 등을 통하여 하실 수
-            있으며 민호텔은(는) 이에 대해 지체 없이 조치하겠습니다.
+            ② 제1항에 따른 권리 행사는민스필라테스에 대해 「개인정보 보호법」
+            시행령 제41조제1항에 따라 서면, 전자우편, 모사전송(FAX) 등을 통하여
+            하실 수 있으며 민스필라테스은(는) 이에 대해 지체 없이
+            조치하겠습니다.
           </span>
         </p>
         <p className="sub_p">
@@ -174,8 +176,8 @@ export default function Personal() {
         </p>
         <p className="sub_p">
           <span className="spanphasis">
-            ⑥ 민호텔은(는) 정보주체 권리에 따른 열람의 요구, 정정·삭제의 요구,
-            처리정지의 요구 시 열람 등 요구를 한 자가 본인이거나 정당한
+            ⑥ 민스필라테스은(는) 정보주체 권리에 따른 열람의 요구, 정정·삭제의
+            요구, 처리정지의 요구 시 열람 등 요구를 한 자가 본인이거나 정당한
             대리인인지를 확인합니다.
           </span>
         </p>
@@ -188,7 +190,7 @@ export default function Personal() {
               <span className="spanphasis">
                 <br />
                 <br />
-                &lt; 민호텔 &gt;
+                &lt; 민스필라테스 &gt;
               </span>
               은(는) 개인정보의 안전성 확보를 위해 다음과 같은 조치를 취하고
               있습니다.
@@ -196,8 +198,8 @@ export default function Personal() {
           </p>
           <p className="sub_p mgt10">
             1. 해킹 등에 대비한 기술적 대책
-            <br /> &lt;<span className="spanphasis">민호텔</span>&gt;('
-            <span className="spanphasis">민호텔</span>')은 해킹이나 컴퓨터
+            <br /> &lt;<span className="spanphasis">민스필라테스</span>&gt;('
+            <span className="spanphasis">민스필라테스</span>')은 해킹이나 컴퓨터
             바이러스 등에 의한 개인정보 유출 및 훼손을 막기 위하여
             보안프로그램을 설치하고 주기적인 갱신·점검을 하며 외부로부터 접근이
             통제된 구역에 시스템을 설치하고 기술적/물리적으로 감시 및 차단하고
@@ -230,7 +232,7 @@ export default function Personal() {
           <p className="ls2">
             <br />
             <br />
-            민호텔 은(는) 정보주체의 이용정보를 저장하고 수시로 불러오는
+            민스필라테스 은(는) 정보주체의 이용정보를 저장하고 수시로 불러오는
             ‘쿠키(cookie)’를 사용하지 않습니다.
             <br />
             <br />
@@ -259,12 +261,12 @@ export default function Personal() {
             <span className="spanphasis">
               <br />
               <br />
-              &lt; 민호텔 &gt; 은(는) ｢개인정보 보호법｣ 제15조제3항 및
+              &lt; 민스필라테스 &gt; 은(는) ｢개인정보 보호법｣ 제15조제3항 및
               제17조제4항에 따라 ｢개인정보 보호법 시행령｣ 제14조의2에 따른
               사항을 고려하여 정보주체의 동의 없이 개인정보를 추가적으로
               이용·제공할 수 있습니다.
-              <br /> 이에 따라 &lt; 민호텔 &gt; 가(이) 정보주체의 동의 없이
-              추가적인 이용·제공을 하기 위해서 다음과 같은 사항을
+              <br /> 이에 따라 &lt; 민스필라테스 &gt; 가(이) 정보주체의 동의
+              없이 추가적인 이용·제공을 하기 위해서 다음과 같은 사항을
               고려하였습니다.
               <br />▶ 개인정보를 추가적으로 이용·제공하려는 목적이 당초 수집
               목적과 관련성이 있는지 여부
@@ -315,8 +317,8 @@ export default function Personal() {
               <span className="spanphasis">
                 <br />
                 <br />
-                &lt; 민호텔 &gt; 은(는) 다음과 같은 목적으로 가명정보를 처리하고
-                있습니다.
+                &lt; 민스필라테스 &gt; 은(는) 다음과 같은 목적으로 가명정보를
+                처리하고 있습니다.
               </span>
             </p>
             <p className="sub_p"></p>
@@ -353,10 +355,10 @@ export default function Personal() {
             <p className="sub_p mgt10">
               <span className="spanphasis">
                 {" "}
-                ① <span className="colorLightBlue">민호텔</span> 은(는) 개인정보
-                처리에 관한 업무를 총괄해서 책임지고, 개인정보 처리와 관련한
-                정보주체의 불만처리 및 피해구제 등을 위하여 아래와 같이 개인정보
-                보호책임자를 지정하고 있습니다.
+                ① <span className="colorLightBlue">민스필라테스</span> 은(는)
+                개인정보 처리에 관한 업무를 총괄해서 책임지고, 개인정보 처리와
+                관련한 정보주체의 불만처리 및 피해구제 등을 위하여 아래와 같이
+                개인정보 보호책임자를 지정하고 있습니다.
               </span>
             </p>
             <ul className="list_indent2 mgt10">
@@ -391,7 +393,7 @@ export default function Personal() {
                 <span className="spanphasis">▶ 개인정보 보호 담당부서</span>
               </li>
               <li>
-                <span className="spanphasis">부서명 : 민호텔</span>
+                <span className="spanphasis">부서명 : 민스필라테스</span>
               </li>
               <li>
                 <span className="spanphasis">담당자 : 이강민</span>
@@ -402,11 +404,11 @@ export default function Personal() {
             </ul>
             <p className="sub_p">
               <span className="spanphasis">
-                ② 정보주체께서는 민호텔 의 서비스(또는 사업)을 이용하시면서
-                발생한 모든 개인정보 보호 관련 문의, 불만처리, 피해구제 등에
-                관한 사항을 개인정보 보호책임자 및 담당부서로 문의하실 수
-                있습니다. 민호텔 은(는) 정보주체의 문의에 대해 지체 없이 답변 및
-                처리해드릴 것입니다.
+                ② 정보주체께서는 민스필라테스 의 서비스(또는 사업)을
+                이용하시면서 발생한 모든 개인정보 보호 관련 문의, 불만처리,
+                피해구제 등에 관한 사항을 개인정보 보호책임자 및 담당부서로
+                문의하실 수 있습니다. 민스필라테스 은(는) 정보주체의 문의에 대해
+                지체 없이 답변 및 처리해드릴 것입니다.
               </span>
             </p>
             <span className="spanphasis">

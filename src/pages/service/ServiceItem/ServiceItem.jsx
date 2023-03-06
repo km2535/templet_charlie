@@ -52,7 +52,7 @@ export default function ServiceItem({ service }) {
       </div>
       <div className={styles.content}>
         <div className={styles.TITLE}>{TITLE}</div>
-        <div className={styles.TITLE}>{PRICE}</div>
+        <div className={styles.PRICE}>{PRICE}</div>
         <div className={styles.DETAIL_DESCRIPTION}>{DETAIL_DESCRIPTION}</div>
         <div className={styles.summaryContainer}>
           <div className={styles.summary}>

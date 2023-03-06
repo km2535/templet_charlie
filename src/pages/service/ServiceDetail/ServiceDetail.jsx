@@ -15,7 +15,10 @@ export default function ServiceDetail() {
           <div key={v?.ID} className={styles.TitleSelected}>
             <div
               onClick={() =>
-                navigate(`/minhotel/service/${v?.ID}`, { state: { id: v?.ID } })
+                navigate(
+                  `${process.env.REACT_APP_API_SUB_OPTION_THREE_URL}/${v?.ID}`,
+                  { state: { id: v?.ID } }
+                )
               }
               className={v.ID === id ? styles.select : styles.unSelect}
             >

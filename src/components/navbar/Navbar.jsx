@@ -76,7 +76,7 @@ export default function Navbar({ option, mainPage }) {
               className={styles.option1}
               onClick={() => navigate(process.env.REACT_APP_API_SUB_URL)}
             >
-              about
+              소개
             </li>
             <li
               id="option2"
@@ -85,7 +85,7 @@ export default function Navbar({ option, mainPage }) {
                 navigate(process.env.REACT_APP_API_SUB_OPTION_ONE_URL)
               }
             >
-              location
+              오시는 길
             </li>
             <li
               id="option3"
@@ -94,7 +94,7 @@ export default function Navbar({ option, mainPage }) {
                 navigate(process.env.REACT_APP_API_SUB_OPTION_TWO_URL)
               }
             >
-              class
+              이벤트
             </li>
             <li
               id="option4"
@@ -103,7 +103,7 @@ export default function Navbar({ option, mainPage }) {
                 navigate(process.env.REACT_APP_API_SUB_OPTION_THREE_URL)
               }
             >
-              service
+              교육과정
             </li>
             <li
               id="option5"
@@ -112,7 +112,7 @@ export default function Navbar({ option, mainPage }) {
                 navigate(process.env.REACT_APP_API_SUB_OPTION_FOUR_URL)
               }
             >
-              notice
+              공지사항
             </li>
             <li
               id="option6"
@@ -121,7 +121,7 @@ export default function Navbar({ option, mainPage }) {
                 navigate(process.env.REACT_APP_API_SUB_OPTION_FIVE_URL)
               }
             >
-              qna
+              비용문의
             </li>
           </div>
         </>

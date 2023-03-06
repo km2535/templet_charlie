@@ -23,7 +23,7 @@ export default function Intro({ subPage }) {
               <div
                 className={styles.linkDesc}
                 onClick={() =>
-                  navigate(process.env.REACT_APP_API_SUB_OPTION_TWO_URL)
+                  navigate(process.env.REACT_APP_API_SUB_OPTION_THREE_URL)
                 }
               >
                 <div>MORE VIEW</div>

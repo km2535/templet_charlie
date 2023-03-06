@@ -4,6 +4,7 @@ import { BsFillPeopleFill, BsImageFill } from "react-icons/bs";
 import { SlSizeFullscreen } from "react-icons/sl";
 import { IoLocationSharp, IoTime } from "react-icons/io5";
 import { MdMiscellaneousServices } from "react-icons/md";
+import { BsCalendar2Month } from "react-icons/bs";
 import { useEffect } from "react";
 export default function Summation({ Icon, description }) {
   const [type, setType] = useState("");
@@ -36,7 +37,11 @@ export default function Summation({ Icon, description }) {
         break;
       case "IoTime":
         setType(<IoTime />);
-        setDesc("체크인/체크아웃");
+        setDesc("시간");
+        break;
+      case "BsCalendar2Month":
+        setType(<BsCalendar2Month />);
+        setDesc("기간");
         break;
       case "MdMiscellaneousServices":
         setType(<MdMiscellaneousServices />);

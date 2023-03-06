@@ -52,7 +52,7 @@ export default function Footer() {
           />
         </div>
         <div className={styles.Info}>
-          <div className={styles.company}>민호텔</div>
+          <div className={styles.company}>민스필라테스</div>
           <div className={styles.addr}>
             서울특별시 중랑구 00로 000-00 민빌딩 | 대표이사 이강민
           </div>

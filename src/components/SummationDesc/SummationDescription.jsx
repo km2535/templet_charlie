@@ -20,13 +20,16 @@ export default function SummationDescription({ setSimple, id }) {
         onChange={onchangeHandler}
       >
         <option value="">선택하세요</option>
-        <option value="FaBath">욕실타입</option>
-        <option value="FaBed">침실타입</option>
+        {/* 필라테스 버전 */}
+        {/* <option value="FaBath">욕실타입</option>
+        <option value="FaBed">침실타입</option> */}
+        {/* <option value="BsImageFill">전망</option> */}
+        {/* <option value="IoLocationSharp">위치</option>
+        <option value="IoTime">체크인/체크아웃</option> */}
+        <option value="BsCalendar2Month">기간</option>
+        <option value="IoTime">시간</option>
         <option value="BsFillPeopleFill">인원</option>
         <option value="SlSizeFullscreen">면적</option>
-        <option value="BsImageFill">전망</option>
-        <option value="IoLocationSharp">위치</option>
-        <option value="IoTime">체크인/체크아웃</option>
         <option value="MdMiscellaneousServices">기 타</option>
       </select>
       <input

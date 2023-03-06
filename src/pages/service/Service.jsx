@@ -9,7 +9,7 @@ export default function Service() {
   }, []);
   return (
     <div className={styles.container}>
-      <div className={styles.mainTitle}>SERVICE</div>
+      <div className={styles.mainTitle}>CLASS</div>
       <Outlet context={[service]} />
     </div>
   );

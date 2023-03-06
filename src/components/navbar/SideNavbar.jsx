@@ -58,31 +58,37 @@ export default function SideNavbar({ side, setSide, mainPage }) {
       </div>
       <ul className={styles.list}>
         <li id="option1" className={styles.option1} onClick={naviHandler}>
-          home
+          홈
         </li>
         <li id="option2" className={styles.option2} onClick={naviHandler}>
-          about
+          소개
         </li>
         <li id="option3" className={styles.option3} onClick={naviHandler}>
-          location
+          오시는 길
         </li>
         <li id="option4" className={styles.option4} onClick={naviHandler}>
-          class
+          이벤트
         </li>
         <li id="option5" className={styles.option5} onClick={naviHandler}>
-          service
+          교육과정
         </li>
-        <li className={styles.options}>
+        <li id="option6" className={styles.option5} onClick={naviHandler}>
+          공지사항
+        </li>
+        <li id="option7" className={styles.option5} onClick={naviHandler}>
+          비용문의
+        </li>
+        {/* <li className={styles.options}>
           community
           <div className={styles.snb}>
             <div id="option6" className={styles.option6} onClick={naviHandler}>
-              notice
+              공지사항
             </div>
             <div id="option7" className={styles.option7} onClick={naviHandler}>
-              qna
+              비용문의
             </div>
           </div>
-        </li>
+        </li> */}
         <li className={styles.sns}>
           sns
           <div className={styles.snsContainer}>

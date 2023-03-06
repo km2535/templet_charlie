@@ -10,7 +10,7 @@ export const removeServiceImg = async (product) => {
     }
   )
     .then((res) => {
-      return console.log(res);
+      return res;
     })
     .catch((err) => {
       return err;
